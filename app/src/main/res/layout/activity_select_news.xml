@@ -1,0 +1,634 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="300dp"
+    android:layout_height="500dp"
+    >
+    <ScrollView
+        android:layout_width="300dp"
+        android:layout_height="400dp" >
+        <RelativeLayout
+            android:layout_width="300dp"
+            android:layout_height="100dp">
+
+
+    <CheckBox
+            android:id="@+id/checkBox1"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:checked="true"
+            android:layout_marginTop="30dp"
+            android:text="데일리안" />
+
+        <CheckBox
+            android:id="@+id/checkBox2"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:checked="true"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="150dp"
+            android:text="중앙일보" />
+
+        <CheckBox
+            android:id="@+id/checkBox3"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="60dp"
+            android:checked="true"
+            android:text="오마이뉴스" />
+
+        <CheckBox
+            android:id="@+id/checkBox4"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="150dp"
+            android:checked="true"
+            android:text="서울경제" />
+        <CheckBox
+            android:id="@+id/checkBox5"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="90dp"
+            android:checked="true"
+            android:text="파이낸셜뉴스" />
+            <CheckBox
+                android:id="@+id/checkBox6"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="90dp"
+                android:layout_marginLeft="150dp"
+                android:checked="true"
+                android:text="tbs" />
+            <CheckBox
+                android:id="@+id/checkBox7"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="120dp"
+                android:checked="true"
+                android:text="뉴스후" />
+            <CheckBox
+                android:id="@+id/checkBox8"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="120dp"
+                android:layout_marginLeft="150dp"
+                android:checked="true"
+                android:text="한국경제" />
+            <CheckBox
+                android:id="@+id/checkBox9"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="150dp"
+                android:checked="true"
+                android:text="TVCHOSUN" />
+            <CheckBox
+                android:id="@+id/checkBox10"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="150dp"
+                android:layout_marginLeft="150dp"
+                android:checked="true"
+                android:text="이투데이" />
+            <CheckBox
+                android:id="@+id/checkBox11"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="180dp"
+                android:checked="true"
+                android:text="SINGL LIST" />
+            <CheckBox
+                android:id="@+id/checkBox12"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="180dp"
+                android:layout_marginLeft="150dp"
+                android:checked="true"
+                android:text="법률신문" />
+            <CheckBox
+                android:id="@+id/checkBox13"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="210dp"
+                android:checked="true"
+                android:text="프레시안" />
+            <CheckBox
+                android:id="@+id/checkBox14"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="210dp"
+                android:layout_marginLeft="150dp"
+                android:checked="true"
+                android:text="MBN" />
+            <CheckBox
+                android:id="@+id/checkBox15"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="240dp"
+                android:checked="true"
+                android:text="세계일보" />
+            <CheckBox
+                android:id="@+id/checkBox16"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="240dp"
+                android:layout_marginLeft="150dp"
+                android:checked="true"
+                android:text="아시아뉴스통신" />
+            <CheckBox
+                android:id="@+id/checkBox17"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="270dp"
+                android:checked="true"
+                android:text="매일경제" />
+            <CheckBox
+                android:id="@+id/checkBox18"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="270dp"
+                android:layout_marginLeft="150dp"
+                android:checked="true"
+                android:text="YTN" />
+            <CheckBox
+                android:id="@+id/checkBox19"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="300dp"
+                android:checked="true"
+                android:text="디지털타임스" />
+            <CheckBox
+                android:id="@+id/checkBox20"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="300dp"
+                android:layout_marginLeft="150dp"
+                android:checked="true"
+                android:text="노컷뉴스" />
+
+
+            <CheckBox
+                android:id="@+id/checkBox21"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="330dp"
+                android:checked="true"
+                android:text="MBN" />
+            <CheckBox
+                android:id="@+id/checkBox22"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="330dp"
+                android:layout_marginLeft="150dp"
+                android:checked="true"
+                android:text="시사포커스" />
+            <CheckBox
+                android:id="@+id/checkBox23"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="360dp"
+                android:checked="true"
+                android:text="연합뉴스" />
+            <CheckBox
+                android:id="@+id/checkBox24"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="360dp"
+                android:layout_marginLeft="150dp"
+                android:checked="true"
+                android:text="글로벌이코노믹" />
+            <CheckBox
+                android:id="@+id/checkBox25"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="390dp"
+                android:checked="true"
+                android:text="The Leader" />
+            <CheckBox
+                android:id="@+id/checkBox26"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="390dp"
+                android:layout_marginLeft="150dp"
+                android:checked="true"
+                android:text="스카이데일리" />
+            <CheckBox
+                android:id="@+id/checkBox27"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="420dp"
+                android:checked="true"
+                android:text="한국경제TV" />
+            <CheckBox
+                android:id="@+id/checkBox28"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="420dp"
+                android:layout_marginLeft="150dp"
+                android:checked="true"
+                android:text="디트NEWS24" />
+            <CheckBox
+                android:id="@+id/checkBox29"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="450dp"
+                android:checked="true"
+                android:text="조세일보" />
+            <CheckBox
+                android:id="@+id/checkBox30"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="450dp"
+                android:layout_marginLeft="150dp"
+                android:checked="true"
+                android:text="채널에이" />
+            <CheckBox
+                android:id="@+id/checkBox31"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="480dp"
+                android:checked="true"
+                android:text="뉴스프리존" />
+            <CheckBox
+                android:id="@+id/checkBox32"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="480dp"
+                android:layout_marginLeft="150dp"
+                android:checked="true"
+                android:text="뉴스토마토" />
+            <CheckBox
+                android:id="@+id/checkBox33"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="510dp"
+                android:checked="true"
+                android:text="뉴스티앤티" />
+            <CheckBox
+                android:id="@+id/checkBox34"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="510dp"
+                android:layout_marginLeft="150dp"
+                android:checked="true"
+                android:text="쿠키뉴스" />
+            <CheckBox
+                android:id="@+id/checkBox35"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="540dp"
+                android:checked="true"
+                android:text="스페셜경제" />
+            <CheckBox
+                android:id="@+id/checkBox36"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="540dp"
+                android:layout_marginLeft="150dp"
+                android:checked="true"
+                android:text="뉴시스" />
+            <CheckBox
+                android:id="@+id/checkBox37"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="570dp"
+                android:checked="true"
+                android:text="매일일보" />
+            <CheckBox
+                android:id="@+id/checkBox38"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="570dp"
+                android:layout_marginLeft="150dp"
+                android:checked="true"
+                android:text="News1" />
+            <CheckBox
+                android:id="@+id/checkBox39"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="600dp"
+                android:checked="true"
+                android:text="연합뉴스TV" />
+            <CheckBox
+                android:id="@+id/checkBox40"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="600dp"
+                android:layout_marginLeft="150dp"
+                android:checked="true"
+                android:text="신아일보" />
+            <CheckBox
+                android:id="@+id/checkBox41"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="630dp"
+                android:checked="true"
+                android:text="SBS" />
+            <CheckBox
+                android:id="@+id/checkBox42"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="630dp"
+                android:layout_marginLeft="150dp"
+                android:checked="true"
+                android:text="머니투데이" />
+            <CheckBox
+                android:id="@+id/checkBox43"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="660dp"
+                android:checked="true"
+                android:text="뉴스핌" />
+            <CheckBox
+                android:id="@+id/checkBox44"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="660dp"
+                android:layout_marginLeft="150dp"
+                android:checked="true"
+                android:text="허프포스트" />
+            <CheckBox
+                android:id="@+id/checkBox45"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="690dp"
+                android:checked="true"
+                android:text="더팩트" />
+            <CheckBox
+                android:id="@+id/checkBox46"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="690dp"
+                android:layout_marginLeft="150dp"
+                android:checked="true"
+                android:text="천지일보" />
+            <CheckBox
+                android:id="@+id/checkBox47"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="720dp"
+                android:checked="true"
+                android:text="시사인" />
+            <CheckBox
+                android:id="@+id/checkBox48"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="720dp"
+                android:layout_marginLeft="150dp"
+                android:checked="true"
+                android:text="국제뉴스" />
+            <CheckBox
+                android:id="@+id/checkBox49"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="750dp"
+                android:checked="true"
+                android:text="뷰스뉴스" />
+            <CheckBox
+                android:id="@+id/checkBox50"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="750dp"
+                android:layout_marginLeft="150dp"
+                android:checked="true"
+                android:text="시사저널" />
+            <CheckBox
+                android:id="@+id/checkBox51"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="780dp"
+                android:checked="true"
+                android:text="아시아투데이" />
+            <CheckBox
+                android:id="@+id/checkBox52"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="780dp"
+                android:layout_marginLeft="150dp"
+                android:checked="true"
+                android:text="이데일리" />
+            <CheckBox
+                android:id="@+id/checkBox53"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="810dp"
+                android:checked="true"
+                android:text="내일일보" />
+            <CheckBox
+                android:id="@+id/checkBox54"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="810dp"
+                android:layout_marginLeft="150dp"
+                android:checked="true"
+                android:text="경향신문" />
+
+
+            <CheckBox
+                android:id="@+id/checkBox55"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="840dp"
+                android:checked="true"
+                android:text="동아일보" />
+            <CheckBox
+                android:id="@+id/checkBox56"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="840dp"
+                android:layout_marginLeft="150dp"
+                android:checked="true"
+                android:text="헤럴드" />
+            <CheckBox
+                android:id="@+id/checkBox57"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="870dp"
+                android:checked="true"
+                android:text="아시아경제" />
+            <CheckBox
+                android:id="@+id/checkBox58"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="870dp"
+                android:layout_marginLeft="150dp"
+                android:checked="true"
+                android:text="케이더블유뉴스" />
+            <CheckBox
+                android:id="@+id/checkBox59"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="900dp"
+                android:checked="true"
+                android:text="국민일보" />
+            <CheckBox
+                android:id="@+id/checkBox60"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="900dp"
+                android:layout_marginLeft="150dp"
+                android:checked="true"
+                android:text="미디어투데이" />
+            <CheckBox
+                android:id="@+id/checkBox61"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="930dp"
+                android:checked="true"
+                android:text="서울신문" />
+            <CheckBox
+                android:id="@+id/checkBox62"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="930dp"
+                android:layout_marginLeft="150dp"
+                android:checked="true"
+                android:text="한국일보" />
+            <CheckBox
+                android:id="@+id/checkBox63"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="960dp"
+                android:checked="true"
+                android:text="한겨레" />
+            <CheckBox
+                android:id="@+id/checkBox64"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="960dp"
+                android:layout_marginLeft="150dp"
+                android:checked="true"
+                android:text="MBC" />
+            <CheckBox
+                android:id="@+id/checkBox65"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="990dp"
+                android:checked="true"
+                android:text="KBS" />
+            <CheckBox
+                android:id="@+id/checkBox66"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="990dp"
+                android:layout_marginLeft="150dp"
+                android:checked="true"
+                android:text="중부매일" />
+            <CheckBox
+                android:id="@+id/checkBox67"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="1020dp"
+                android:checked="true"
+                android:text="문화일보" />
+
+        </RelativeLayout>
+    </ScrollView>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        >
+        <Button
+            android:id="@+id/save_btn"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:textStyle="bold"
+            android:text="저장" />
+        <Button
+            android:id="@+id/allchecked"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:textStyle="bold"
+            android:text="모두선택" />
+
+        <Button
+            android:id="@+id/unckecked"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="160dp"
+            android:textStyle="bold"
+            android:text="모두해제" />
+        <Button
+            android:id="@+id/close_btn"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="240dp"
+            android:textStyle="bold"
+            android:text="닫기" />
+    </RelativeLayout>
+
+
+
+   <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_id">
+    </com.google.android.gms.ads.AdView>
+
+</LinearLayout>
+
+   <!-- https://www.dailian.co.kr	데일리안
+    https://news.joins.com	뉴스조인(중앙일보)
+    http://www.ohmynews.com	오마이뉴스
+    https://www.sedaily.com	서울경제
+    http://www.fnnews.com	파이낸셜뉴스
+    http://www.tbs.seoul.kr	tbs
+    http://www.newswhoplus.com	뉴스후
+    https://www.hankyung.com	한국경제
+    http://news.tvchosun.com	TVCHOSUN
+    http://www.etoday.co.kr	이투데이
+    http://www.slist.kr	SINGL LIST
+    https://www.lawtimes.co.kr	 법률신문
+    http://www.pressian.com	프레시안
+    http://www.mbn.co.kr/	MBN
+    http://www.segye.com/	세계일보
+    http://www.anewsa.com	아시아뉴스통신
+    http://news.mk.co.kr/	매일경제
+    https://www.ytn.co.kr	YTN
+    http://www.dt.co.kr/	디지털타임스
+    https://www.nocutnews.co.kr	노컷뉴스
+    http://mbn.mk.co.kr	MBN
+    http://www.sisafocus.co.kr	시사포커스
+    http://yna.kr/	연합뉴스
+    http://www.g-enews.com	글로벌이코노믹
+    http://theleader.mt.co.kr	the Leader
+    http://www.skyedaily.com	스카이데일리
+    http://news.wowtv.co.kr	한국경제TV
+    http://www.dtnews24.com	디트NEWS24
+    http://www.joseilbo.com	조세일보
+    http://www.ichannela.com	채널에이
+    http://www.newsfreezone.co.kr	뉴스프리존
+    http://www.newstomato.com	뉴스토마토
+    http://www.newstnt.com	뉴스티앤티
+    http://www.kukinews.com	쿠키뉴스
+    http://speconomy.com/	스페셜경제
+    http://www.newsis.com	뉴시스
+    https://news.imaeil.com	매일일보
+    http://news1.kr	News1
+    http://www.yonhapnewstv.co.kr	연합뉴스TV
+    http://www.shinailbo.co.kr	신아일보
+    https://news.sbs.co.kr	SBS
+    http://news.mt.co.kr	머니투데이
+    http://www.newspim.com	뉴스핌
+    https://www.huffingtonpost.kr	허프포스트
+    http://news.tf.co.kr	더팩트
+    http://www.newscj.com	천지일보
+    https://www.sisain.co.kr	시사인
+    http://www.gukjenews.com	국제뉴스
+    http://www.viewsnnews.com	뷰스뉴스
+    http://www.sisajournal.com	시사저널
+    http://www.asiatoday.co.kr	아시아투데이
+    http://www.edaily.co.kr/	이데일리
+    http://www.naeil.com	내일일보
+    http://news.khan.co.kr	경향신문
+    http://www.viewsnnews.com	뷰스뉴스
+    http://www.newscj.com	천지일보-->
